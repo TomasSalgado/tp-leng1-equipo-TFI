@@ -1,43 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contacto - Patitas Seguras</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Patitas Felices</title>
 </head>
-
 <body>
 
-<header>
-<h1>Contacto</h1>
-</header>
+    <header>
+        <h1>Patitas Felices</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="programas.html">Programas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<nav>
-<a href="index.html">Inicio</a>
-<a href="nosotros.html">Nosotros</a>
-<a href="programas.html">Programas</a>
-<a href="contacto.html">Contacto</a>
-</nav>
+    <main>
+        <section>
+            <h2>Ponete en contacto con nosotros</h2>
+            <p>Si encontraste un animal en riesgo, querés adoptar, o te interesa sumarte como voluntario a Patitas Felices, no dudes en escribirnos o visitarnos. ¡Tu mensaje puede salvar una vida!</p>
+            
+            <h3>Información de Contacto</h3>
+            <p><strong>Dirección:</strong> Av. Tte. General Juan Domingo Perón 1200, Hurlingham, Buenos Aires, Argentina</p>
+            
+            <p><strong>Teléfono de Emergencias:</strong> 
+                <a href="tel:+541150607123">+54 11 5060-7123</a>
+            </p>
+            
+            <p><strong>Correo Electrónico institucional:</strong> 
+                <a href="mailto:contacto@patitasfelices.org">contacto@patitasfelices.org</a>
+            </p>
 
-<main>
+            <h3>Nuestras Redes Sociales</h3>
+            <p>Seguinos para enterarte de los rescates diarios y los animales que buscan hogar:</p>
+            <p>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram Oficial de Patitas Felices</a>
+            </p>
+        </section>
 
-<section>
-<h2>Información</h2>
+        <section>
+            <h3>Envianos un mensaje directo</h3>
+            <form action="#">
+                <p>
+                    <label for="nombre">Nombre y Apellido:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+                <p>
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="motivo">Motivo de consulta:</label><br>
+                    <select id="motivo" name="motivo">
+                        <option value="adopcion">Quiero Adoptar</option>
+                        <option value="transito">Ofrecer Hogar de Tránsito</option>
+                        <option value="denuncia">Reportar Maltrato / Abandono</option>
+                        <option value="donacion">Donaciones</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje o descripción del caso:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar Consulta</button>
+                </p>
+            </form>
+        </section>
+    </main>
 
-<p>Teléfono: <a href="tel:+541112345678">+54 11 1234 5678</a></p>
-
-<p>Email: <a href="mailto:contacto@patitas.org">contacto@patitas.org</a></p>
-
-<p>Seguinos en redes:</p>
-<a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-
-</section>
-
-</main>
-
-<footer>
-<p>© 2026 Patitas Seguras</p>
-</footer>
+    <footer>
+        <p>Lenguajes Informáticos 1 UNAHUR 2025 | Trabajo Práctico Grupal</p>
+    </footer>
 
 </body>
 </html>
