@@ -266,6 +266,7 @@ button[type="submit"]:active {
     transform: scale(0.98); 
 }
 
+/*  BOOTSTRAP INDEX  */
 .row-cols-3 .card-img-top {
     height: 160px;       /* Forzamos a que las tres imágenes midan lo mismo de alto */
     object-fit: cover;   /* Corta y acomoda las fotos para que no se estiren ni se deformen */
