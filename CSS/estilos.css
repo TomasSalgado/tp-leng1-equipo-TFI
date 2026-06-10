@@ -79,11 +79,19 @@ a:hover {
 }
 
 header {
-    background-color: var(--color-principal);
+    /* background-color: var(--color-principal);
     color: #ffffff;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+ */
+  width: 100%;
+  background-color: var(--color-principal);
+  padding: 0.5rem;
+  z-index: 100;
+
+
 }
 
 header h1 {
@@ -94,7 +102,7 @@ header h1 {
 nav ul {
     list-style-type: none;
     display: block;
-    text-align: center;
+    text-align: center; 
     padding: 5px 0;
 }
 
