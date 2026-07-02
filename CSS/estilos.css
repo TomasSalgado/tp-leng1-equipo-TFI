@@ -26,6 +26,10 @@ body {
     background-color: var(--color-fondo-claro);
 }
 
+body.modo-oscuro {
+    background-color: #121212;
+    color: #ffffff;
+}
 
 h1, h2, h3, h4 {
     font-family: var(--fuente-titulos);
