@@ -275,3 +275,27 @@ button[type="submit"]:active {
     height: 160px;       /* Forzamos a que las tres imágenes midan lo mismo de alto */
     object-fit: cover;   /* Corta y acomoda las fotos para que no se estiren ni se deformen */
 }
+
+#btn-modo {
+  background-color: #e0e0e0;
+  color: #333333;            
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+
+#btn-modo:hover {
+  background-color: #d0d0d0;
+}
+
+body.modo-oscuro #btn-modo {
+  background-color: #333333; 
+  color: #ffffff;           
+  border: 1px solid #555555; 
+}
+
+body.modo-oscuro #btn-modo:hover {
+  background-color: #444444;
+}
