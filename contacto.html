@@ -32,16 +32,7 @@
 
 
     </header>
-<div class="mb-3">
-    <label for="email" class="form-label fw-semibold">Correo Electronico</label>
-    <input type="mail" 
-    id="email" 
-    name="email" 
-    class="form-control form-control-custom" 
-    placeholder="nombre@correo.com" required
-    oninvalid="this.setcustomvalidity('Ingrese un mail valido')"
-    oninput="this.setcustomvalidity('')"> 
-</div>
+
     <main>
         <section>
             <h2>Ponete en contacto con nosotros</h2>
@@ -92,13 +83,18 @@
                 <p>
                     <button type="submit">Enviar Consulta</button>
                 </p>
+                <!--mensaje para conexion con JS-->
+                <p id="mensaje-form" class="mt-2" style="font-weight: bold;"></p>
             </form>
         </section>
     </main>
 
+
     <footer>
         <p>Lenguajes Informáticos 1 UNAHUR 2026 | Trabajo Práctico Grupal</p>
     </footer>
+
+    <script src="./JS/script.js"></script>
 
 </body>
 </html>
