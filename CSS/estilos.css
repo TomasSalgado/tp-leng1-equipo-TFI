@@ -272,13 +272,13 @@ button[type="submit"]:active {
 
 /*  BOOTSTRAP INDEX  */
 .row-cols-3 .card-img-top {
-    height: 160px;       /* Forzamos a que las tres imágenes midan lo mismo de alto */
-    object-fit: cover;   /* Corta y acomoda las fotos para que no se estiren ni se deformen */
+    height: 160px;       
+    object-fit: cover;   
 }
 
 #btn-modo {
-  background-color: #e0e0e0;
-  color: #333333;            
+  background-color: #1a1a1a;
+  color: #f0f0f0;            
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -290,6 +290,13 @@ button[type="submit"]:active {
   background-color: #d0d0d0;
 }
 
+
+body.modo-oscuro {
+    background-color: #333333; 
+    color: #ffffff;           
+    border: 1px solid #555555; 
+}
+
 body.modo-oscuro #btn-modo {
   background-color: #333333; 
   color: #ffffff;           
@@ -299,3 +306,51 @@ body.modo-oscuro #btn-modo {
 body.modo-oscuro #btn-modo:hover {
   background-color: #444444;
 }
+
+
+body.modo-oscuro main{
+
+    background-color: #080202; 
+    color: #ffffff;           
+    border: 1px solid #555555; 
+}
+
+body.modo-oscuro section{
+
+    background-color: #080202; 
+    color: #ffffff;           
+}
+
+
+body.modo-oscuro h2{
+
+    color:cyan
+}
+
+
+body.modo-oscuro h3{
+
+    color:teal
+}
+ 
+body.modo-oscuro .card{
+
+    background-color: #284057;
+    color: wheat;
+
+}
+
+body.modo-oscuro .card .btn,
+body.modo-oscuro .card button {
+  background-color: #1a1a1a; 
+  color: #ffffff;            
+  border-color: #555555;     
+}
+
+
+body.modo-oscuro .card .btn:hover,
+body.modo-oscuro .card button:hover {
+  background-color: #333333;
+}
+
+
