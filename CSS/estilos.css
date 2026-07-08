@@ -276,6 +276,7 @@ button[type="submit"]:active {
     object-fit: cover;   
 }
 
+/* MODO OSCURO */
 #btn-modo {
   background-color: #1a1a1a;
   color: #f0f0f0;            
@@ -283,7 +284,7 @@ button[type="submit"]:active {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.3s ease; 
+  /* transition: all 0.3s ease;  */
 }
 
 #btn-modo:hover {
@@ -321,6 +322,10 @@ body.modo-oscuro section{
     color: #ffffff;           
 }
 
+body.modo-oscuro h1{
+
+    color:cyan
+}
 
 body.modo-oscuro h2{
 
@@ -353,4 +358,38 @@ body.modo-oscuro .card button:hover {
   background-color: #333333;
 }
 
+body.modo-oscuro article{
+
+    
+    background-color: rgb(3, 3, 3);
+    color: #ffffff;           
+    border: 1px solid #555555; 
+
+}
+
+body.modo-oscuro dl{
+
+    background-color: #133636;
+    color: white;        
+}
+
+body.modo-oscuro dd{
+
+    background-color: #133636;
+    color: white;        
+}
+
+body.modo-oscuro dt{
+    color:aqua;
+}
+
+body.modo-oscuro form{
+    background-color: #133636;
+
+}
+
+body.modo-oscuro label{
+
+    color: cyan;
+}
 

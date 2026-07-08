@@ -11,6 +11,7 @@ const formulario = document.querySelector('form');
 const mensajeForm = document.getElementById('mensaje-form');
 
 // 2. Escuchamos el evento cuando el usuario hace clic en "Enviar Consulta"
+if(formulario){
 formulario.addEventListener('submit', (event) => {
     
     // Evitamos que la página se recargue automáticamente
@@ -37,4 +38,4 @@ formulario.addEventListener('submit', (event) => {
         formulario.reset();
     }
 });
-
+}
